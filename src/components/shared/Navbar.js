@@ -62,7 +62,7 @@ const Navbar = () => {
 
                             </ul>
                         </div>
-                        <Link href="/" className="me-2 md:me-0">
+                        <Link href="/" className="me-2 md:me-0 lg:ms-30">
                             <Image
                                 className=''
                                 src={news}
@@ -97,14 +97,13 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className=" text-white navbar-end w-[35%] md:w-[50%]">
-                    <div className='md:flex justify-between items-center gap-5'>
-                    <FontAwesomeIcon className='text-white h-[25px] '  icon={faFacebook} />
-                    <FontAwesomeIcon className='text-white h-[25px] '  icon={faYoutube} />
-                    <FontAwesomeIcon className='text-white h-[25px] '  icon={faLinkedin} />
-                    <FontAwesomeIcon className='text-white h-[25px] '  icon={faTwitter} />
-                    <FontAwesomeIcon className='text-white h-[25px] '  icon={faWhatsapp} />
-                    </div>
                     
+                    
+                    <Link  href="https://www.facebook.com/salim.sadman.131336"><FontAwesomeIcon className='text-white h-[25px] ms-4'  icon={faFacebook} /></Link>
+                    <Link  href="https://www.linkedin.com/in/i-s-m-salim-sadman-895475196/"><FontAwesomeIcon className='text-white h-[25px] ms-4'  icon={faLinkedin} /></Link>
+                    <Link  href="https://www.youtube.com/"><FontAwesomeIcon className='text-white h-[25px] ms-4'  icon={faYoutube} /></Link>
+                    <FontAwesomeIcon className='text-white md:h-[25px] ms-4'  icon={faTwitter} />
+                    <Link  href="https://wa.me/+8801988577631?text=Salim%20Sadman"> <FontAwesomeIcon className='text-white h-[25px] ms-4'  icon={faWhatsapp} /></Link>
                     </div>
                 </div>
             </nav>
