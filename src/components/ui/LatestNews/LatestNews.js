@@ -5,9 +5,6 @@ import Image from 'next/image';
 const LatestNews = async () => {
     const { data } = await getAllNews()
 
-
-
-
     return (
         <div>
             <div className="card bg-base-100 shadow-xl  ">
@@ -28,7 +25,7 @@ const LatestNews = async () => {
             {/* Data Mapping */}
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5 mt-5'>
                 {
-                    data.slice(1,7).map(news => <div key={news._id} className="card bg-base-100 shadow-xl  ">
+                    data.slice(1,5).map(news => <div key={news._id} className="card bg-base-100 shadow-xl  ">
                         <figure>
                             <Image
                             className='h-[270px]'

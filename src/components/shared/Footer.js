@@ -30,9 +30,9 @@ const Footer = () => {
     ]
 
     return (
-        <div className='sm:p-5 md:p-10 bg-black text-center'>
+        <div className='sm:p-5 md:p-10 bg-black text-center '>
             <div className='flex justify-center '>
-                <div className='flex'>
+                <div className='flex mt-5 sm:mt-3'>
                     <Link href="https://www.facebook.com/salim.sadman.131336"><FontAwesomeIcon className='text-white h-[25px] ms-4' icon={faFacebook} /></Link>
                     <Link href="https://www.linkedin.com/in/i-s-m-salim-sadman-895475196/"><FontAwesomeIcon className='text-white h-[25px] ms-4' icon={faLinkedin} /></Link>
                     <Link href="https://www.youtube.com/"><FontAwesomeIcon className='text-white h-[25px] ms-4' icon={faYoutube} /></Link>
